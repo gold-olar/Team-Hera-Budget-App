@@ -1,0 +1,47 @@
+#team{
+	padding-top: 40px !important;
+	padding: 60px;
+	color: #555;
+}
+#team h2::after{
+	content: '';
+	display:block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto;
+	background: rgb(63, 99, 197)
+}
+#team.row{
+	margin-top: 30px;
+}
+.col-md-4{
+	margin-top: 40px auto;
+}
+.profile{
+	background-color: #efefef;
+	padding: 70px 10px 10px;
+}
+.team_mate{
+	width: 120px;
+	height: 120px;
+}
+.profile img{
+	top:-60px;
+	position: absolute;
+	left: calc(50% - 60px);
+	border-radius: 50%;
+	border: 10px solid #fff;
+}
+.profile h4{
+	font-size: 20px;
+	margin-top: 15px;
+	color: rgb(63, 99, 197);
+}
+.profile_margin{
+	margin-top: 12% !important;
+}
+.profile:hover{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
